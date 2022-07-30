@@ -16,6 +16,7 @@ public class CountingCharacters {
 //                "terms has to be zero to start with. So if you move all the terms over to one side, you can put " +
 //                "the quadratics into a form that can be factored allowing that side of the equation to equal zero. " +
 //                "Once you’ve done that, it’s pretty straightforward from there.";
+
         sentence = sentence.toLowerCase();
         char[] charactersInString = sentence.toCharArray();
 
